@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-uploaded_file= r"/Volumes/MAC/AMIT/2.Data Science/Session 8/untitled folder/data/tips.csv"
+uploaded_file= r"tips.csv"
 data=pd.read_csv(uploaded_file)
 
 
